@@ -59,7 +59,7 @@ int main(int argc, char** argv)
     G4UImanager::GetUIpointer()->ApplyCommand("/tracking/verbose 0");
     
     // Run
-    G4UImanager::GetUIpointer()->ApplyCommand("/run/beamOn 100000");
+    G4UImanager::GetUIpointer()->ApplyCommand("/run/beamOn 1000000");
 
     if (argc != 1) { // batch mode
         G4String cmd = "/control/execute ";

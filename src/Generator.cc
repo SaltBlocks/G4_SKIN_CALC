@@ -49,7 +49,7 @@ void Generator::GeneratePrimaries(G4Event* anEvent)
     // Convert spherical coordinates to Cartesian coordinates
     G4double xCoord = radius * cos(theta);
     G4double yCoord = radius * sin(theta);
-    G4double zCoord = (2.0 * G4UniformRand() - 1.0) * fluidCylinderHeight / 2.0;
+    G4double zCoord = (2.0 * G4UniformRand() - 1.0) * (fluidCylinderHeight) / 2.0;
     
     particleGun->SetParticlePosition(G4ThreeVector(xCoord, yCoord, zCoord));
     
