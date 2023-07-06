@@ -1,7 +1,3 @@
-/**
- * \mainpage notitle
- * Homepage: <http://physino.xyz/gears>
- */
 using namespace std;
 
 #include <G4RunManager.hh>
